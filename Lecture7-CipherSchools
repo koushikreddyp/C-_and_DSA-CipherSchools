@@ -1,0 +1,35 @@
+1. Basics of Array:-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x;  
+    int a[5];   //This means it is an array of name a which can store multiple integer, It can store 6 elemenets
+               
+        // Index vlaue starts from 0.
+        // elements starting from 0-5
+        // The first element will have an index 0 --> a[0]
+        // The second element will have an index 1 --> a[1]
+        // The third element will have an index 2 --> a[2]
+        // The forth element will have an index 3 --> a[3]
+        // The fifth element will have an index 4 --> a[4]
+        // The sixth element will have an index 5 --> a[5]
+
+        
+}
+
+2. Reverse 5 given integers:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    cout<<"Give 5 integers as input"<<endl;
+    cin>>a>>b>>c>>d>>e;
+
+    cout<<"The integers in reverse order are: "<<e<<" "<<d<<" "<<c<<" "<<b<<" "<<a;
+
+    return 0;
+}
